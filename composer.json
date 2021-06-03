@@ -1,0 +1,29 @@
+{
+    "name": "amundi/exercises",
+    "description": "PHP exercises",
+    "authors": [
+        {
+            "name": "Amundi IT-referential team",
+            "email": "G-X-HABILITATIONS-MOE@rc-its.credit-agricole.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Amundi\\Exercises\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Amundi\\Exercises\\" : "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
