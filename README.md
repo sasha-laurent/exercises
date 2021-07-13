@@ -1,4 +1,6 @@
 # exercises
 
 PHP exercises :
-- anagram comparator
+- Anagram comparator
+- Palindrome checker
+- Almost Palindrome checker
