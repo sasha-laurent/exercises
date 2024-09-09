@@ -1,6 +1,6 @@
 <?php
 
-namespace Amundi\Exercises;
+namespace App;
 
 class Prime
 {

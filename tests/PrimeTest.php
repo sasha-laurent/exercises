@@ -1,18 +1,19 @@
 <?php
 
-namespace Test\Amundi\Exercises;
+declare(strict_types=1);
 
-use Amundi\Exercises\Prime;
+namespace Test;
+
+use App\Prime;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @coversDefaultClass \Amundi\Exercises\Prime
+ * @coversDefaultClass \App\Prime
  * @covers ::__construct()
  */
 class PrimeTest extends TestCase
 {
-    /** @var Prime */
-    private $primeProvider;
+    private Prime $primeProvider;
 
     protected function setUp(): void
     {
@@ -33,7 +34,7 @@ class PrimeTest extends TestCase
         $this->assertSame($expected, $result);
     }
 
-    public function provideSumFirstPrimes(): array
+    public static function provideSumFirstPrimes(): array
     {
         return [
             [0, 1],
