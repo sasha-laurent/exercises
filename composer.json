@@ -1,27 +1,27 @@
 {
-    "name": "amundi/exercises",
+    "name": "sasha-laurent/exercises",
     "description": "PHP exercises",
     "authors": [
         {
-            "name": "Amundi IT-referential team",
-            "email": "G-X-HABILITATIONS-MOE@rc-its.credit-agricole.fr"
+            "name": "Sasha Laurent",
+            "email": "sasha.laurent@agriconomie.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Amundi\\Exercises\\" : "src"
+            "App\\" : "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Test\\Amundi\\Exercises\\" : "tests"
+            "Test\\" : "tests"
         }
     },
     "require": {
-        "php": ">=7.2"
+        "php": ">=8.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.0"
+        "phpunit/phpunit": "^11.3"
     },
     "config": {
         "bin-dir": "bin"
